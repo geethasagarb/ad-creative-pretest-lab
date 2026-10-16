@@ -97,7 +97,7 @@ cheap, pricey = seg.sort_values("COST").iloc[0], seg.sort_values("COST").iloc[-1
 
 
 def takeaway(text):
-    st.markdown(f'<div class="takeaway">💡 {text}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="takeaway"> {text}</div>', unsafe_allow_html=True)
 
 
 SIM = "Simulated data: MiroFish AI personas, reactions tagged by Snowflake Cortex"
