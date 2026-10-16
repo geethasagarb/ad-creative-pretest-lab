@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_mirofish__personas
+    columns:
+      - name: persona_id
+        data_tests: [unique, not_null]
+      - name: persona_name
+        data_tests: [unique, not_null]
+      - name: gender
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['M', 'F']
+      - name: age_band
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['30-34', '35-39', '40-44', '45-49']
+
+  - name: stg_mirofish__reactions
+    columns:
+      - name: reaction_id
+        data_tests: [unique, not_null]
+      - name: platform
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['twitter', 'reddit']
+      - name: reaction_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['post', 'quote', 'repost', 'comment']
+      - name: persona_name
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_mirofish__personas')
+                field: persona_name
