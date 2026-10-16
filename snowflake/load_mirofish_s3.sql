@@ -3,8 +3,8 @@
 -- Pattern: external stage -> INFER_SCHEMA table -> COPY INTO
 -- Repo path: snowflake/load_mirofish_s3.sql
 -- S3 layout (one folder per table):
---   s3://geetha-adlab-raw-2026/mirofish/reactions/mirofish_reactions.csv
---   s3://geetha-adlab-raw-2026/mirofish/personas/personas.csv
+--   s3://geetha-<your-bucket-name>/mirofish/reactions/mirofish_reactions.csv
+--   s3://geetha-<your-bucket-name>/mirofish/personas/personas.csv
 -- Safe to rerun: tables use IF NOT EXISTS, and COPY skips already-loaded files.
 -- =====================================================================
 
