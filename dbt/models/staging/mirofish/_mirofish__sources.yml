@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mirofish
+    database: RAW
+    schema: MIROFISH
+    tables:
+      - name: sim_reactions
+      - name: personas
