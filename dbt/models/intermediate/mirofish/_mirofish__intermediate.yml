@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: int_mirofish__reactions_enriched
+    description: "Simulated reactions tagged by Snowflake Cortex: sentiment, ad mentioned, intent."
+    columns:
+      - name: reaction_id
+        data_tests: [unique, not_null]
+      - name: sentiment_score
+        data_tests: [not_null]
+      - name: ad_mentioned
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['A_free_trial', 'B_real_members', 'C_20_minutes', 'D_30_day_challenge', 'general', 'unclassified']
+      - name: intent
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['will_try', 'curious', 'not_interested', 'already_using', 'unclassified']
