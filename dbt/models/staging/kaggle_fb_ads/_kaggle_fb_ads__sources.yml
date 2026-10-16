@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: kaggle_fb_ads
+    database: RAW
+    schema: KAGGLE_FB_ADS
+    tables:
+      - name: conversions
