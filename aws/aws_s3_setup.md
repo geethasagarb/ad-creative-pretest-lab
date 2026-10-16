@@ -8,7 +8,7 @@ Placeholders to replace:
 
 ## Part 1: Create the bucket and upload the file
 1. AWS console → **S3** → **Create bucket**
-2. Name: `geetha-adlab-raw-2026`
+2. Name: `<your-bucket-name>`
 3. Region: **US East (Ohio) us-east-2** (same region as your Snowflake account, so no transfer fees)
 4. Keep **Block all public access** turned ON. Snowflake reads through a role, not a public link.
 5. Create bucket → open it → **Create folder** named `kaggle_fb_ads`
