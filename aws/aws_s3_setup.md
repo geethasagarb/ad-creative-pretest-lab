@@ -27,12 +27,12 @@ Folder-per-source in the bucket mirrors the schema-per-source in Snowflake.
     {
       "Effect": "Allow",
       "Action": ["s3:GetObject", "s3:GetObjectVersion"],
-      "Resource": "arn:aws:s3:::geetha-adlab-raw-2026/*"
+      "Resource": "arn:aws:s3:::username-adlab-raw-2026/*"
     },
     {
       "Effect": "Allow",
       "Action": ["s3:ListBucket", "s3:GetBucketLocation"],
-      "Resource": "arn:aws:s3:::geetha-adlab-raw-2026"
+      "Resource": "arn:aws:s3:::username-adlab-raw-2026"
     }
   ]
 }
