@@ -35,7 +35,7 @@ GREY = "#565f89"
 st.markdown(
     """
 <style>
-.block-container {padding-top: 1.2rem; max-width: 1300px;}
+.block-container {padding-top: 3.5rem; max-width: 1300px;}
 @keyframes fadeUp {from {opacity: 0; transform: translateY(16px);} to {opacity: 1; transform: none;}}
 .chapter {animation: fadeUp .6s ease-out both;}
 .kicker {font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; opacity: .6;}
