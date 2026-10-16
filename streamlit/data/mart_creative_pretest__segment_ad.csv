@@ -1,0 +1,33 @@
+SEGMENT_AD_KEY,AGE_BAND,GENDER,AD_CODE,AD_NAME,SIM_REACTIONS,SIM_WILL_TRY,SIM_NOT_INTERESTED,SIM_WILL_TRY_RATE,SIM_AVG_SENTIMENT,IS_LOW_SAMPLE,REAL_CTR_PCT,REAL_COST_PER_CONVERSION,REAL_CLICK_TO_CONVERSION_RATE,REAL_SPEND_USD
+40-44|F|D_30_day_challenge,40-44,F,D_30_day_challenge,D: 30-Day Challenge,2,1,0,0.500,0.73,TRUE,0.0221,79.53,0.0180,7396.58
+40-44|F|C_20_minutes,40-44,F,C_20_minutes,C: 20 Minutes for You,5,1,0,0.200,0.74,FALSE,0.0221,79.53,0.0180,7396.58
+40-44|F|B_real_members,40-44,F,B_real_members,B: Real Members,0,0,0,,,TRUE,0.0221,79.53,0.0180,7396.58
+40-44|F|A_free_trial,40-44,F,A_free_trial,A: Free Trial,1,0,0,0.000,0.82,TRUE,0.0221,79.53,0.0180,7396.58
+30-34|M|D_30_day_challenge,30-34,M,D_30_day_challenge,D: 30-Day Challenge,3,1,0,0.333,0.75,TRUE,0.0120,25.55,0.0682,7640.92
+30-34|M|C_20_minutes,30-34,M,C_20_minutes,C: 20 Minutes for You,6,3,0,0.500,0.71,FALSE,0.0120,25.55,0.0682,7640.92
+30-34|M|B_real_members,30-34,M,B_real_members,B: Real Members,0,0,0,,,TRUE,0.0120,25.55,0.0682,7640.92
+30-34|M|A_free_trial,30-34,M,A_free_trial,A: Free Trial,0,0,0,,,TRUE,0.0120,25.55,0.0682,7640.92
+45-49|F|D_30_day_challenge,45-49,F,D_30_day_challenge,D: 30-Day Challenge,8,2,0,0.250,0.71,FALSE,0.0246,119.94,0.0119,13433.21
+45-49|F|C_20_minutes,45-49,F,C_20_minutes,C: 20 Minutes for You,2,0,0,0.000,0.7,TRUE,0.0246,119.94,0.0119,13433.21
+45-49|F|B_real_members,45-49,F,B_real_members,B: Real Members,1,0,0,0.000,0.4,TRUE,0.0246,119.94,0.0119,13433.21
+45-49|F|A_free_trial,45-49,F,A_free_trial,A: Free Trial,1,1,0,1.000,0.84,TRUE,0.0246,119.94,0.0119,13433.21
+40-44|M|D_30_day_challenge,40-44,M,D_30_day_challenge,D: 30-Day Challenge,5,3,0,0.600,0.66,FALSE,0.0158,54.46,0.0301,4193.15
+40-44|M|C_20_minutes,40-44,M,C_20_minutes,C: 20 Minutes for You,4,1,0,0.250,0.59,TRUE,0.0158,54.46,0.0301,4193.15
+40-44|M|B_real_members,40-44,M,B_real_members,B: Real Members,0,0,0,,,TRUE,0.0158,54.46,0.0301,4193.15
+40-44|M|A_free_trial,40-44,M,A_free_trial,A: Free Trial,0,0,0,,,TRUE,0.0158,54.46,0.0301,4193.15
+45-49|M|D_30_day_challenge,45-49,M,D_30_day_challenge,D: 30-Day Challenge,4,2,0,0.500,0.78,TRUE,0.0175,76.22,0.0218,7317.46
+45-49|M|C_20_minutes,45-49,M,C_20_minutes,C: 20 Minutes for You,4,2,0,0.500,0.78,TRUE,0.0175,76.22,0.0218,7317.46
+45-49|M|B_real_members,45-49,M,B_real_members,B: Real Members,1,0,0,0.000,0.85,TRUE,0.0175,76.22,0.0218,7317.46
+45-49|M|A_free_trial,45-49,M,A_free_trial,A: Free Trial,0,0,0,,,TRUE,0.0175,76.22,0.0218,7317.46
+35-39|F|D_30_day_challenge,35-39,F,D_30_day_challenge,D: 30-Day Challenge,7,4,0,0.571,0.81,FALSE,0.0194,63.80,0.0228,6061.35
+35-39|F|C_20_minutes,35-39,F,C_20_minutes,C: 20 Minutes for You,2,0,0,0.000,0.73,TRUE,0.0194,63.80,0.0228,6061.35
+35-39|F|B_real_members,35-39,F,B_real_members,B: Real Members,1,0,0,0.000,0.8,TRUE,0.0194,63.80,0.0228,6061.35
+35-39|F|A_free_trial,35-39,F,A_free_trial,A: Free Trial,0,0,0,,,TRUE,0.0194,63.80,0.0228,6061.35
+30-34|F|D_30_day_challenge,30-34,F,D_30_day_challenge,D: 30-Day Challenge,3,1,0,0.333,0.65,TRUE,0.0162,39.03,0.0382,7611.48
+30-34|F|C_20_minutes,30-34,F,C_20_minutes,C: 20 Minutes for You,7,3,0,0.429,0.69,FALSE,0.0162,39.03,0.0382,7611.48
+30-34|F|B_real_members,30-34,F,B_real_members,B: Real Members,0,0,0,,,TRUE,0.0162,39.03,0.0382,7611.48
+30-34|F|A_free_trial,30-34,F,A_free_trial,A: Free Trial,1,0,0,0.000,0.85,TRUE,0.0162,39.03,0.0382,7611.48
+35-39|M|D_30_day_challenge,35-39,M,D_30_day_challenge,D: 30-Day Challenge,7,2,0,0.286,0.67,FALSE,0.0142,45.10,0.0382,5051.08
+35-39|M|C_20_minutes,35-39,M,C_20_minutes,C: 20 Minutes for You,5,0,0,0.000,0.79,FALSE,0.0142,45.10,0.0382,5051.08
+35-39|M|B_real_members,35-39,M,B_real_members,B: Real Members,0,0,0,,,TRUE,0.0142,45.10,0.0382,5051.08
+35-39|M|A_free_trial,35-39,M,A_free_trial,A: Free Trial,2,1,0,0.500,0.43,TRUE,0.0142,45.10,0.0382,5051.08
