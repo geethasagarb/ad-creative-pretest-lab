@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_kaggle_fb_ads__conversions
+    columns:
+      - name: ad_id
+        data_tests:
+          - unique
+          - not_null
+      - name: gender
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['M', 'F']
+      - name: spend_usd
+        data_tests:
+          - not_null
