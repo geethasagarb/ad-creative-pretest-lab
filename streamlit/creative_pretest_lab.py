@@ -150,14 +150,14 @@ elif ch == 1:
     with left:
         chart = by_ad.assign(SHOW=lambda d: d.RELIABLE.map({True: "Enough data", False: "Too few reactions"}))
         bars = alt.Chart(chart).mark_bar(cornerRadiusEnd=6, height=34).encode(
-            y=alt.Y("AD_NAME:N", sort=AD_ORDER, title=None),
+            y=alt.Y("AD_NAME:N", sort=AD_ORDER, title=None, axis=alt.Axis(labelLimit=220)),
             x=alt.X("PCT:Q", title="Would sign up (%)", scale=alt.Scale(domain=[0, 100])),
             color=alt.condition("datum.RELIABLE", alt.Color("AD_NAME:N", scale=AD_COLOR, legend=None),
                                 alt.value(GREY)),
             tooltip=[alt.Tooltip("AD_NAME", title="Ad"), alt.Tooltip("PCT", title="Would sign up %"),
                      alt.Tooltip("SIM_REACTIONS", title="Reactions"), alt.Tooltip("SHOW", title="Sample")],
         )
-        text = alt.Chart(chart).mark_text(align="left", dx=6).encode(
+        text = alt.Chart(chart).mark_text(align="left", dx=6, color="#94a3b8", fontWeight="bold").encode(
             y=alt.Y("AD_NAME:N", sort=AD_ORDER), x="PCT:Q",
             text=alt.Text("SIM_REACTIONS:Q", format="d"))
         st.altair_chart((bars + text).properties(height=280), use_container_width=True)
