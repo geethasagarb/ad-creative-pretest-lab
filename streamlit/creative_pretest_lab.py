@@ -97,7 +97,7 @@ cheap, pricey = seg.sort_values("COST").iloc[0], seg.sort_values("COST").iloc[-1
 
 
 def takeaway(text):
-    st.markdown(f'<div class="takeaway"> {text}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="takeaway">💡 {text}</div>', unsafe_allow_html=True)
 
 
 SIM = "Simulated data: MiroFish AI personas, reactions tagged by Snowflake Cortex"
@@ -171,7 +171,8 @@ elif ch == 1:
             st.markdown(f'<div class="card"><div class="kicker">A persona on {winner.AD_NAME}</div>'
                         f'<div class="hl">“{qrow.CONTENT}”</div><div class="statlbl" style="margin-top:8px">'
                         f'— {qrow.PERSONA_NAME}</div></div>', unsafe_allow_html=True)
-    takeaway(f"<b>{winner.AD_NAME}</b> leads: {int(winner.PCT)}% of {int(winner.SIM_REACTIONS)} reactions said they'd sign up. "
+    takeaway(f"<b>{winner.AD_NAME}</b> has the strongest signal: {int(winner.PCT)}% of {int(winner.SIM_REACTIONS)} reactions said they'd sign up. "
+             "At this sample size, its lead over the next ad is within the margin of error. "
              "A and B barely came up in conversation, so they haven't lost yet. They need a fairer test.")
 
 # ================================================================ 3. for whom
@@ -249,7 +250,7 @@ else:
             best_by_ad.append(f"<li><b>{name}</b> → {ok.iloc[0].SEGMENT}</li>")
     st.markdown(
         f"""<div class="rec"><b>Plan</b><ol>
-<li>Lead the launch with <b>{winner.AD_NAME}</b>.</li>
+<li>Treat <b>{winner.AD_NAME}</b> as the front-runner and test it live first.</li>
 <li>Target each tested ad at its best audience:<ul>{''.join(best_by_ad)}</ul></li>
 <li>Re-run the simulation with equal exposure for <b>A</b> and <b>B</b> before ruling them out.</li>
 <li>Confirm the top 1–2 ads with a <b>small live A/B test</b> before committing the full budget.</li>
