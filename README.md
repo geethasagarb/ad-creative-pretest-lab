@@ -94,7 +94,7 @@ The simulated data is **directional, not predictive**. It's useful for ranking i
 
 See [docs/DEEP_DIVE.md](docs/DEEP_DIVE.md) for the full architecture, every design decision, and a realistic improvement plan.
 
-## Next steps
+## Next steps:
 
 - Rerun the simulation with one seed post per ad and several repeat runs, to firm up the rankings.
 - **RAG with Cortex Search** over the reaction text, to ask questions like "why did women 35–39 prefer D?"
