@@ -1,6 +1,6 @@
 # Creative Pretest Lab
 
-**Pretesting ad creatives with AI personas before spending a dollar on media, modeled in Snowflake and dbt, and checked against real ad data..**
+**Pretesting ad creatives with AI personas before spending a dollar on media, modeled in Snowflake and dbt, and checked against real ad data.**
 
 ![Overview](docs/architecture_overview.svg)
 
